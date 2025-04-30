@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://bit.ly/3GwOR7Q
+**URL**: https://bit.ly/3GKE1eo
 
 ## How can I edit this code?
 
