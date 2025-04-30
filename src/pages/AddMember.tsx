@@ -60,11 +60,15 @@ const AddMember = () => {
       
       // In a real app, you'd upload the image to the server here
       // and get back a URL or path to use
-      let imagePath = imagePreview;
-
+      
       await createMember({
-        ...data,
-        image: imagePath || undefined,
+        name: data.name,
+        role: data.role,
+        email: data.email,
+        phone: data.phone,
+        department: data.department,
+        bio: data.bio,
+        image: imagePreview || undefined,
         joinDate: new Date().toISOString().split('T')[0]
       });
 

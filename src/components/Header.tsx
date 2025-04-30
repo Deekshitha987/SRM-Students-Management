@@ -5,7 +5,7 @@ interface HeaderProps {
   teamName?: string;
 }
 
-const Header = ({ teamName = "Student Team" }: HeaderProps) => {
+const Header = ({ teamName = "SRM Student Management" }: HeaderProps) => {
   return (
     <header className="bg-primary text-white shadow-md">
       <div className="container mx-auto py-4 px-6 flex justify-between items-center">
